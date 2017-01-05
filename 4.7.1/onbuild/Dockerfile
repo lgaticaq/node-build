@@ -1,4 +1,4 @@
-FROM lgatica/node-build:4.7.0
+FROM lgatica/node-build:4.7.1
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
