@@ -1,6 +1,6 @@
 # node-build
 
-[![dockeri.co](http://dockeri.co/image/lgatica/node-build)](https://registry.hub.docker.com/lgatica/node-build/)
+[![dockeri.co](http://dockeri.co/image/lgatica/node-build)](https://hub.docker.com/r/lgatica/node-build/)
 
 > Docker Image for node apps with alpine linux and native dependencies
 
