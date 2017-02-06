@@ -1,6 +1,4 @@
-FROM lgatica/node-build:7.4.0
-
-MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
+FROM lgatica/node-build:7.5.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
