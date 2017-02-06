@@ -1,0 +1,39 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  matrix :
+    - env:
+      NODE_PATCH_VERSION: '7.5.0'
+      NODE_MINOR_VERSION: '7.5'
+      NODE_MAJOR_VERSION: '7'
+      LATEST: 'latest'
+    - env:
+      NODE_PATCH_VERSION: '6.9.5'
+      NODE_MINOR_VERSION: '6.9'
+      NODE_MAJOR_VERSION: '6'
+    - env:
+      NODE_PATCH_VERSION: '4.7.3'
+      NODE_MINOR_VERSION: '4.7'
+      NODE_MAJOR_VERSION: '4'
+
+install:
+  - docker build -t "lgatica/node-build:$NODE_PATCH_VERSION" "$NODE_PATCH_VERSION"
+  - docker build -t "lgatica/node-build:$NODE_PATCH_VERSION-onbuild" "$NODE_PATCH_VERSION/onbuild"
+
+script:
+  - docker run --rm "lgatica/node-build:$NODE_PATCH_VERSION" node --version
+
+after_success:
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker tag "lgatica/node-build:$NODE_PATCH_VERSION" "lgatica/node-build:$NODE_MINOR_VERSION"
+  - docker tag "lgatica/node-build:$NODE_PATCH_VERSION" "lgatica/node-build:$NODE_MAJOR_VERSION"
+  - docker tag "lgatica/node-build:$NODE_PATCH_VERSION-onbuild" "lgatica/node-build:$NODE_MINOR_VERSION-onbuild"
+  - docker tag "lgatica/node-build:$NODE_PATCH_VERSION-onbuild" "lgatica/node-build:$NODE_MAJOR_VERSION-onbuild"
+  - if [ "$LATEST" == "latest" ]; then
+    docker tag "lgatica/node-build:$NODE_PATCH_VERSION" "lgatica/node-build:latest";
+    docker tag "lgatica/node-build:$NODE_PATCH_VERSION-onbuild" "lgatica/node-build:onbuild";
+    fi
+  - docker push lgatica/node-build

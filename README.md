@@ -2,6 +2,8 @@
 
 [![dockeri.co](http://dockeri.co/image/lgatica/node-build)](https://hub.docker.com/r/lgatica/node-build/)
 
+[![Build Status](https://travis-ci.org/lgaticaq/node-build.svg?branch=master)](https://travis-ci.org/lgaticaq/node-build)
+
 > Docker Image for node apps with alpine linux and native dependencies
 
 Supported tags and respective Dockerfile links
