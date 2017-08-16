@@ -10,8 +10,8 @@ Supported tags and respective Dockerfile links
 
 - 7.7.3, 7.7, 7, latest ([7.7/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/7.7.3/Dockerfile))
 - 7.7.3-onbuild, 7.7-onbuild, 7-onbuild, onbuild ([7.7/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/7.7.3/onbuild/Dockerfile))
-- 6.11.0, 6.11, 6 ([6.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.0/Dockerfile))
-- 6.11.0-onbuild, 6.11-onbuild, 6-onbuild ([6.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.0/onbuild/Dockerfile))
+- 6.11.1, 6.11, 6 ([6.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.1/Dockerfile))
+- 6.11.1-onbuild, 6.11-onbuild, 6-onbuild ([6.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.1/onbuild/Dockerfile))
 - 4.8.4, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.8.4/Dockerfile))
 - 4.8.4-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.8.4/onbuild/Dockerfile))
 
