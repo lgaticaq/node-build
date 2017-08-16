@@ -8,8 +8,8 @@
 
 Supported tags and respective Dockerfile links
 
-- 7.10.0, 7.10, 7, latest ([7.10/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/7.10.0/Dockerfile))
-- 7.10.0-onbuild, 7.10-onbuild, 7-onbuild, onbuild ([7.10/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/7.10.0/onbuild/Dockerfile))
+- 8.0.0, 8.0, 8, latest ([8.0/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.0.0/Dockerfile))
+- 8.0.0-onbuild, 8.0-onbuild, 8-onbuild, onbuild ([8.0/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.0.0/onbuild/Dockerfile))
 - 6.11.2, 6.11, 6 ([6.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.2/Dockerfile))
 - 6.11.2-onbuild, 6.11-onbuild, 6-onbuild ([6.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.11.2/onbuild/Dockerfile))
 - 4.8.4, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.8.4/Dockerfile))
@@ -17,7 +17,7 @@ Supported tags and respective Dockerfile links
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
-FROM node:7-onbuild
+FROM node:8-onbuild
 # replace this with your application's default port
 EXPOSE 3000
 ```
