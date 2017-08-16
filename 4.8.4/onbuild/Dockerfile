@@ -1,4 +1,4 @@
-FROM lgatica/node-build:4.8.3
+FROM lgatica/node-build:4.8.4
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
