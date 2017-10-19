@@ -37,3 +37,6 @@ after_success:
     docker tag "lgatica/node-build:$NODE_PATCH_VERSION-onbuild" "lgatica/node-build:onbuild";
     fi
   - docker push lgatica/node-build
+
+notifications:
+  email: false
