@@ -19,7 +19,7 @@ Supported tags and respective Dockerfile links
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
-FROM node:9-onbuild
+FROM lgatica/node-build:9-onbuild
 # replace this with your application's default port
 EXPOSE 3000
 ```
