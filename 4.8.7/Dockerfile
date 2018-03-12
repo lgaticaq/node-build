@@ -1,4 +1,4 @@
-FROM node:4.8.7-alpine@sha256:6eab176d2b3299509d20541757c2619f73ebd707d6b85f3e0ba994ae61e15861
+FROM node:4.8.7-alpine@sha256:d32fe67e80f388d0a40a20955e1aaec3e91c60e93dcdf90a0b0f881415d5a060
 
 LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
