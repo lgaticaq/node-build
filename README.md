@@ -8,14 +8,14 @@
 
 Supported tags and respective Dockerfile links
 
-- 9.9.0, 9.9, 9, latest ([9.9/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.9.0/Dockerfile))
-- 9.9.0-onbuild, 9.9-onbuild, 9-onbuild, onbuild ([9.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.9.0/onbuild/Dockerfile))
-- 8.10.0, 8.10, 8 ([8.10/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.10.0/Dockerfile))
-- 8.10.0-onbuild, 8.10-onbuild, 8-onbuild ([8.10/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.10.0/onbuild/Dockerfile))
-- 6.13.1, 6.13, 6 ([6.13/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.13.1/Dockerfile))
-- 6.13.1-onbuild, 6.13-onbuild, 6-onbuild ([6.13/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.13.1/onbuild/Dockerfile))
-- 4.8.7, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.8.7/Dockerfile))
-- 4.8.7-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.8.7/onbuild/Dockerfile))
+- 9.11.1, 9.11, 9, latest ([9.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/Dockerfile))
+- 9.11.1-onbuild, 9.11-onbuild, 9-onbuild, onbuild ([9.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/onbuild/Dockerfile))
+- 8.11.1, 8.11, 8 ([8.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.11.1/Dockerfile))
+- 8.11.1-onbuild, 8.11-onbuild, 8-onbuild ([8.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.11.1/onbuild/Dockerfile))
+- 6.14.1, 6.14, 6 ([6.14/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.14.1/Dockerfile))
+- 6.14.1-onbuild, 6.14-onbuild, 6-onbuild ([6.14/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/6.14.1/onbuild/Dockerfile))
+- 4.9.1, 4.9, 4 ([4.9/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.9.1/Dockerfile))
+- 4.9.1-onbuild, 4.9-onbuild, 4-onbuild ([4.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/4.9.1/onbuild/Dockerfile))
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
