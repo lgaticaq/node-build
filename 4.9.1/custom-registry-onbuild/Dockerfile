@@ -4,19 +4,13 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ONBUILD ARG NPM_PROTOCOL=http
-ONBUILD ARG NPM_PORT=4873
 ONBUILD ARG NPM_REGISTRY
-ONBUILD ARG NPM_PASSWORD
-ONBUILD ARG NPM_USERNAME
-ONBUILD ARG NPM_EMAIL
+ONBUILD ARG NPM_AUTH_TOKEN
 ONBUILD ARG NODE_ENV
 ONBUILD ENV NODE_ENV $NODE_ENV
 
-ONBUILD RUN echo "registry=$NPM_PROTOCOL://$NPM_REGISTRY/" >> /root/.npmrc && \
-  echo "//$NPM_REGISTRY/:_password=\"$NPM_PASSWORD\"" >> /root/.npmrc && \
-  echo "//$NPM_REGISTRY/:username=$NPM_USERNAME" >> /root/.npmrc && \
-  echo "//$NPM_REGISTRY/:email=$NPM_EMAIL" >> /root/.npmrc && \
-  echo "//$NPM_REGISTRY/:always-auth=false" >> /root/.npmrc
+ONBUILD RUN npm set registry $NPM_PROTOCOL://$NPM_REGISTRY/ && \
+  npm set //$NPM_REGISTRY/:_authToken $NPM_AUTH_TOKEN
 
 ONBUILD COPY package.json package-lock.* yarn.* /usr/src/app/
 ONBUILD RUN if [ -e yarn.lock ]; \
