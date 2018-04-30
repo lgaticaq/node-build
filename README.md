@@ -8,10 +8,14 @@
 
 Supported tags and respective Dockerfile links
 
-* 9.11.1, 9.11, 9, latest ([9.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/Dockerfile))
-* 9.11.1-onbuild, 9.11-onbuild, 9-onbuild, onbuild ([9.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/onbuild/Dockerfile))
-* 9.11.1-ssh-onbuild, 9.11-ssh-onbuild, 9-ssh-onbuild, ssh-onbuild ([9.11/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/ssh-onbuild/Dockerfile))
-* 9.11.1-custom-registry-onbuild, 9.11-custom-registry-onbuild, 9-custom-registry-onbuild, custom-registry-onbuild ([9.11/custom-registry-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/custom-registry-onbuild/Dockerfile))
+* 10.0.0, 10.0, 10, latest ([10.0/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.0.0/Dockerfile))
+* 10.0.0-onbuild, 10.0-onbuild, 10-onbuild, onbuild ([10.0/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.0.0/onbuild/Dockerfile))
+* 10.0.0-ssh-onbuild, 10.0-ssh-onbuild, 10-ssh-onbuild, ssh-onbuild ([10.0/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.0.0/ssh-onbuild/Dockerfile))
+* 10.0.0-custom-registry-onbuild, 10.0-custom-registry-onbuild, 10-custom-registry-onbuild, custom-registry-onbuild ([10.0/custom-registry-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.0.0/custom-registry-onbuild/Dockerfile))
+* 9.11.1, 9.11, 9 ([9.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/Dockerfile))
+* 9.11.1-onbuild, 9.11-onbuild, 9-onbuild ([9.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/onbuild/Dockerfile))
+* 9.11.1-ssh-onbuild, 9.11-ssh-onbuild, 9-ssh-onbuild ([9.11/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/ssh-onbuild/Dockerfile))
+* 9.11.1-custom-registry-onbuild, 9.11-custom-registry-onbuild, 9-custom-registry-onbuild ([9.11/custom-registry-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.1/custom-registry-onbuild/Dockerfile))
 * 8.11.1, 8.11, 8 ([8.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.11.1/Dockerfile))
 * 8.11.1-onbuild, 8.11-onbuild, 8-onbuild ([8.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.11.1/onbuild/Dockerfile))
 * 8.11.1-ssh-onbuild, 8.11-ssh-onbuild, 8-ssh-onbuild ([8.11/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/8.11.1/ssh-onbuild/Dockerfile))
@@ -33,7 +37,7 @@ Supported tags and respective Dockerfile links
 ## Create a Dockerfile in your Node.js app project
 
 ```dockerfile
-FROM lgatica/node-build:9-onbuild
+FROM lgatica/node-build:10-onbuild
 # replace this with your application's default port
 EXPOSE 3000
 ```
