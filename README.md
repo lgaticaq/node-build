@@ -33,6 +33,7 @@ Supported tags and respective Dockerfile links
 
 * onbuild: Onbuild image to general node app
 * ssh-onbuild: Onbuild image to node app with private dependencies (git+ssh)
+* custom-registry-onbuild: Onbuild image to node app with custom registry (verdaccio)
 
 ## Create a Dockerfile in your Node.js app project
 
