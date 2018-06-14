@@ -1,4 +1,4 @@
-FROM lgatica/node-build:10.2.1@sha256:e837472e84ae3f3543565ef6b03911b2b6afe8a49bde36923207713e505f6871
+FROM lgatica/node-build:9.11.2@sha256:f80c45101f37be4717b0efd102cfaa9b40d83bdb98c6781d9462bab84d54a90b
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

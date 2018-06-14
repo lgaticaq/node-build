@@ -1,10 +1,17 @@
-FROM lgatica/node-build:8.11.2@sha256:21c0d643d9eaeb305c54df11cc8ac960a548b5fe55bc1d4442b4d709a1e69573
+FROM lgatica/node-build:10.4.1@sha256:6f85a448dd64b8fcbf638893a3ca9076925e49a06986e6c5f5224da42999d889
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+ONBUILD ARG NPM_PROTOCOL=http
+ONBUILD ARG NPM_REGISTRY
+ONBUILD ARG NPM_AUTH_TOKEN
 ONBUILD ARG NODE_ENV
 ONBUILD ENV NODE_ENV $NODE_ENV
+
+ONBUILD RUN npm set registry $NPM_PROTOCOL://$NPM_REGISTRY/ && \
+  npm set //$NPM_REGISTRY/:_authToken $NPM_AUTH_TOKEN
+
 ONBUILD COPY package.json package-lock.* yarn.* /usr/src/app/
 ONBUILD RUN if [ -e yarn.lock ]; \
   then yarn && yarn cache clean; \
