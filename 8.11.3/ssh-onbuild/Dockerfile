@@ -1,4 +1,4 @@
-FROM lgatica/node-build:8.11.3@sha256:19a3d58e7b2dc143208f5fa78cb57c9ca0136f0b518614377a2dbceebdc70e0e
+FROM lgatica/node-build:8.11.3@sha256:5fc08c1990a40f312ada54b04d9c9b09b0d5a364c6374ad44d6405d98801532f
 
 RUN apk add --no-cache curl git openssh-client && \
   mkdir -p /root/.ssh && \
