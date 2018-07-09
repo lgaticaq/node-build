@@ -8,10 +8,10 @@
 
 Supported tags and respective Dockerfile links
 
-* 10.5.0, 10.5, 10, latest ([10.5/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.5.0/Dockerfile))
-* 10.5.0-onbuild, 10.5-onbuild, 10-onbuild, onbuild ([10.5/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.5.0/onbuild/Dockerfile))
-* 10.5.0-ssh-onbuild, 10.5-ssh-onbuild, 10-ssh-onbuild, ssh-onbuild ([10.5/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.5.0/ssh-onbuild/Dockerfile))
-* 10.5.0-custom-registry-onbuild, 10.5-custom-registry-onbuild, 10-custom-registry-onbuild, custom-registry-onbuild ([10.5/custom-registry-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.5.0/custom-registry-onbuild/Dockerfile))
+* 10.6.0, 10.6, 10, latest ([10.6/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.6.0/Dockerfile))
+* 10.6.0-onbuild, 10.6-onbuild, 10-onbuild, onbuild ([10.6/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.6.0/onbuild/Dockerfile))
+* 10.6.0-ssh-onbuild, 10.6-ssh-onbuild, 10-ssh-onbuild, ssh-onbuild ([10.6/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.6.0/ssh-onbuild/Dockerfile))
+* 10.6.0-custom-registry-onbuild, 10.6-custom-registry-onbuild, 10-custom-registry-onbuild, custom-registry-onbuild ([10.6/custom-registry-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/10.6.0/custom-registry-onbuild/Dockerfile))
 * 9.11.2, 9.11, 9 ([9.11/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.2/Dockerfile))
 * 9.11.2-onbuild, 9.11-onbuild, 9-onbuild ([9.11/onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.2/onbuild/Dockerfile))
 * 9.11.2-ssh-onbuild, 9.11-ssh-onbuild, 9-ssh-onbuild ([9.11/ssh-onbuild/Dockerfile](https://github.com/lgaticaq/node-build/blob/master/9.11.2/ssh-onbuild/Dockerfile))
